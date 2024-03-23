@@ -1,0 +1,30 @@
+custom-color: (0,0,0)
+install-path: 
+xml-replace-jobs:
+  - path: Skins\Dark-Metro Series\DarkVIOLET Flat.xml
+    replacements:
+      L15C19: accent
+      L16C23: accent-dark1
+xmlc-replace-jobs:
+  - source-path: Skins\Dark-Metro Series\DarkVIOLET.xmlc
+    destination-path: Skins\Dark-Metro Series\DarkVIOLET_modified.xmlc
+    replacements:
+      1A35: { color: accent }                                         # hearts
+      38AD: { color: accent }
+      1469: { color: accent }
+      3753: { color: accent }
+      D376: { color: accent }                                         # big-heart
+      32AD: { color: accent }                                         # de-maximize
+      3210: { color: accent }                                         # maximize
+      317C: { color: accent }                                         # minimize
+      309F: { color: accent }                                         # help
+      3350: { color: accent }                                         # close
+      A54A: { color: accent }                                         # backward-skip
+      AECA: { color: accent }                                         # forward-skip
+      AA2B: { color: accent }                                         # play
+      AC62: { color: accent }                                         # pause
+      53AA: { color: accent }                                         # tick
+      D87D: { color: accent, brightness: -10, saturation: 5 }         # thin-line
+      E3D7: { color: accent }                                         # last-fm
+      E62C: { color: accent }
+      D90F: { color: accent, brightness: -10, saturation: 5 }         # head
